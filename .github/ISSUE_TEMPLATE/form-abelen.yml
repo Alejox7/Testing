@@ -22,7 +22,7 @@ body:
     attributes:
       label: Versión
       description: Cual es la versión de uContact en la que ocurre el problema?
-      placeholder: 4.6xx
+      placeholder: 6.4xx
     validations:
       required: true
   - type: textarea
