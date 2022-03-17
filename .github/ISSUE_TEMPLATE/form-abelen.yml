@@ -50,6 +50,6 @@ body:
     id: terms
     attributes:
       label: Fue reproducido en otras instancias?
-      description: En caso de no ser reproducido agregar el label "Triage"
+      description: En caso de no ser reproducido agregar el label Triage
       options:
         - label: Si
