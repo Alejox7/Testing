@@ -20,7 +20,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: Version
+      label: Versión
       description: Cual es la versión de uContact en la que ocurre el problema?
       placeholder: 4.6xx
     validations:
