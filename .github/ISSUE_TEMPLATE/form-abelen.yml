@@ -44,7 +44,7 @@ body:
     id: pasos
     attributes:
       label: Pasos para reproducir el incidente
-      description:  Pasos para reproducir el incidente
+      description:  
       placeholder: 1- Primero se entra como supervisor a ...
   - type: checkboxes
     id: terms
