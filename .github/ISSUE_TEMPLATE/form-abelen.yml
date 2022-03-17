@@ -21,7 +21,7 @@ body:
     id: version
     attributes:
       label: Versión
-      description: Cual es la versión de uContact en la que ocurre el problema?
+      description: Cual es la versión de uContact en la que ocurre el problema? (Poner número de versión)
       placeholder: 6.4xx
     validations:
       required: true
