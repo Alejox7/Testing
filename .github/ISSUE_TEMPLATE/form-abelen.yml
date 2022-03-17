@@ -26,14 +26,6 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: input
-    id: version
-    attributes:
-      label: Version
-      description: Cual es la version de uContact en la que ocurre el problema?
-      placeholder: 4.6xx
-    validations:
-      required: true
     - type: textarea
     id: logs
     attributes:
