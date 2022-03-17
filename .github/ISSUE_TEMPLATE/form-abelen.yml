@@ -8,30 +8,29 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Creación de issues para uContact
   - type: input
     id: contact
     attributes:
       label: Instancia
-      description: En que instancia ocurrio el problema?
+      description: En que instancia ocurrió el problema?
       placeholder: INSTANCIA.ucontactcloud.com
-    validations:
-      required: true
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: Cual fue el problema?
-      description: Contame los detalles
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
     validations:
       required: true
   - type: input
     id: version
     attributes:
       label: Version
-      description: Cual es la version de uContact en la que ocurre el problema?
+      description: Cual es la versión de uContact en la que ocurre el problema?
       placeholder: 4.6xx
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Cual fue el problema?
+      description: 
+      placeholder: Ocurrió un incidente al...
     validations:
       required: true
   - type: textarea
