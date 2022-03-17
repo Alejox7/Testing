@@ -5,6 +5,10 @@ labels: ["bug", "triage"]
 assignees:
   - Alejox7
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
     attributes:
@@ -40,7 +44,7 @@ body:
     id: pasos
     attributes:
       label: Pasos para reproducir el incidente
-      description:  
+      description:  Pasos para reproducir el incidente
       placeholder: 1- Primero se entra como supervisor a ...
   - type: checkboxes
     id: terms
