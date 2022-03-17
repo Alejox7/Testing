@@ -29,34 +29,27 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      label: input
+      description: Cual es la version de uContact en la que ocurre el problema?
+      placeholder: 4.6xx
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
+    - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Logs
+      description: Copie y pegue el log. Este se formateará automáticamente como código.
       render: shell
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos para reproducir el incidente
+      description:  
+      placeholder: 1- Primero se entra como supervisor a ...
   - type: checkboxes
     id: terms
     attributes:
-      label: asdasdasd
-      description:
+      label: Fue reproducido en otras instancias?
+      description: En caso de no ser reproducido agregar el label "Triage"
       options:
-        - label: Fue reproducido en otras instancias?
-          required: false
+        - label: Si
