@@ -55,7 +55,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: 
+      label: |
       description:
       options:
         - label: Fue reproducido en otras instancias?
