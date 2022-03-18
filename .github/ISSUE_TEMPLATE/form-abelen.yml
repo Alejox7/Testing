@@ -25,6 +25,16 @@ body:
       placeholder: 6.4xx
     validations:
       required: true
+  - type: dropdown
+    id: channel
+    attributes:
+      label: En que canales ocurre este problema?
+    options:
+      - Voz
+      - Webchat
+      - SMS/Whatsapp
+      - Email
+      - Facebook/Messenger
   - type: textarea
     id: what-happened
     attributes:
