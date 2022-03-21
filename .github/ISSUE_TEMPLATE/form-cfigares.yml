@@ -64,6 +64,6 @@ body:
         - label: Si
       description: En caso de no ser reproducido agregar el label Triage
       options:
-        - label: label: ‘SMS’
+        - label: ["SMS"]
         - label: ‘Webchat’
         
