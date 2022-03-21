@@ -1,8 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Soporte de la Comunidad de GitHub
-    url: https://github.community/
-    about: Please ask and answer questions here.
-  - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
-    about: Please report security vulnerabilities here.
+  - name: Aca se reportan los issues los de testing
+    url: https://play.typeracer.com?universe=lang_es&rt=26kjnerv24
+    about: Es de carrera esta página.
