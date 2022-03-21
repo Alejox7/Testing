@@ -30,6 +30,7 @@ body:
     attributes:
       label: En que canales ocurre este problema?
       multiple: true
+      description: Agregar los labels correspondientes a los canales
       options:
         - Telefonía
         - Webchat
