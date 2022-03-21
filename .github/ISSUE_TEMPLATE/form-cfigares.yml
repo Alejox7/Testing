@@ -13,7 +13,7 @@ body:
     id: contact
     attributes:
       label: Instancia
-      description: En que instancia ocurrió el problema? (Poner número de versión)
+      description: En que instancia ocurrió el problema?
       placeholder: INSTANCIA.ucontactcloud.com
     validations:
       required: true
