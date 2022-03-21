@@ -31,7 +31,7 @@ body:
       label: En que canales ocurre este problema?
       multiple: true
       options:
-        - Voz
+        - Telefonía
         - Webchat
         - SMS/Whatsapp
         - Email
