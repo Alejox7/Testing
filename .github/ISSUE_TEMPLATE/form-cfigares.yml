@@ -38,8 +38,8 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: ¿Cuál fue el problema? 💬
-      description: Escribir el problema lo más detalladamente posible.
+      label: ¿Cuál fue el problema? 🐞
+      description: Escribir el problema lo más detalladamente posible 💬
       placeholder: Ocurrió un incidente al...
     validations:
       required: true
