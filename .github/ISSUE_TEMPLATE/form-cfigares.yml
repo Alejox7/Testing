@@ -62,4 +62,11 @@ body:
       description: En caso de no ser reproducido agregar el label Triage
       options:
         - label: Si ✔
+  - type: textarea
+    id: multimedia
+    attributes:
+      label: En caso de disponer de capturas o videos, añadirlos aquí:
+      description:  
+      placeholder: Adjunta aquí tu archivo multimedia...
+      
         
