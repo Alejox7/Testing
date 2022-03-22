@@ -20,8 +20,8 @@ body:
   - type: input
     id: version
     attributes:
-      label: Versión
-      description: Cual es la versión de uContact en la que ocurre el problema? (Poner número de versión 🔢)
+      label: Versión 🔢
+      description: Cual es la versión de uContact en la que ocurre el problema? (Poner número de versión)
       placeholder: 6.4xx
     validations:
       required: true
