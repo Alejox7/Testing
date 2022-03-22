@@ -8,20 +8,20 @@ body:
   - type: markdown
     attributes:
       value: |
-        Creación de issues para uContact
+        Acordate de agregar los labels dependiendo del canal, agregar a proyecto, añadir capturas, imagenes y/o videos que ayuden al proceso de desarrollo.
   - type: input
     id: contact
     attributes:
       label: Instancia
-      description: En que instancia ocurrió el problema?
-      placeholder: INSTANCIA.ucontactcloud.com
+      description: Describir la mejora a proponer
+      placeholder: Quiero mas bananas porque...
     validations:
       required: true
   - type: input
     id: version
     attributes:
       label: Versión
-      description: Cual es la versión de uContact en la que ocurre el problema? (Poner número de versión)
+      description: 
       placeholder: 6.4xx
     validations:
       required: true
@@ -37,30 +37,3 @@ body:
         - SMS/Whatsapp
         - Email
         - Facebook/Messenger
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: Cual fue el problema?
-      description: 
-      placeholder: Ocurrió un incidente al...
-    validations:
-      required: true
-  - type: textarea
-    id: logs
-    attributes:
-      label: Logs
-      description: Copie y pegue el log. Este se formateará automaticamente como código.
-      render: shell
-  - type: textarea
-    id: pasos
-    attributes:
-      label: Pasos para reproducir el incidente
-      description:  
-      placeholder: 1- Primero se entra como supervisor a ...
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Fue reproducido en otras instancias?
-      description: En caso de no ser reproducido agregar el label Triage
-      options:
-        - label: Si
