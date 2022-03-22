@@ -39,7 +39,7 @@ body:
     id: what-happened
     attributes:
       label: Cual fue el problema? 💬
-      description: 
+    description: Escribir el problema lo más detalladamente posible.
       placeholder: Ocurrió un incidente al...
     validations:
       required: true
