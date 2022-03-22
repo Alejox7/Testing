@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         ### Recordar:
-        #### - Agregar labels dependiendo del canal
+        #### - Agregar labels involucrados en la propuesta
         #### - Seleccionar Projects-> To do
         #### - Añadir capturas, imagenes y/o videos que ayuden al proceso de desarrollo.
         ##
@@ -32,7 +32,7 @@ body:
   - type: dropdown
     id: channel
     attributes:
-      label: En que canales ocurre este problema?
+      label: ¿En qué canales ocurre este problema?
       multiple: true
       description: Agregar los labels correspondientes a los canales
       options:
