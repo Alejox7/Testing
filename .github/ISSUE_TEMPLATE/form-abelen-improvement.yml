@@ -13,6 +13,7 @@ body:
         ### - Agregar a proyecto
         ### - Añadir capturas
         ### - Imagenes y/o videos que ayuden al proceso de desarrollo.
+        ##
   - type: input
     id: contact
     attributes:
