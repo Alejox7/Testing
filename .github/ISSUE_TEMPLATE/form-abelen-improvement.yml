@@ -24,7 +24,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: Versión
+      label: Versión 🔢
       description: 
       placeholder: 6.4xx
     validations:
