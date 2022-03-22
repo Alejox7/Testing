@@ -9,10 +9,10 @@ body:
     attributes:
       value: |
         ### Acordate de agregar:
-        ### - Los labels dependiendo del canal
-        ### - Agregar a proyecto
-        ### - Añadir capturas
-        ### - Imagenes y/o videos que ayuden al proceso de desarrollo.
+        #### - Los labels dependiendo del canal
+        #### - Agregar a proyecto
+        #### - Añadir capturas
+        #### - Imagenes y/o videos que ayuden al proceso de desarrollo.
         ##
   - type: input
     id: contact
