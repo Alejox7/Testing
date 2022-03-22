@@ -38,7 +38,7 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: Cual fue el problema? 
+      label: Cual fue el problema? 💬
       description: 
       placeholder: Ocurrió un incidente al...
     validations:
@@ -46,7 +46,7 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Logs
+      label: Logs 🔡
       description: Copie y pegue el log. Este se formateará automaticamente como código.
       render: shell
   - type: textarea
