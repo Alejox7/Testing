@@ -8,9 +8,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Acordate de agregar:
-        #### - Labels dependiendo del canal
-        #### - Agregar a proyecto
+        ### Recordar:
+        #### - Agregar labels dependiendo del canal
+        #### - Seleccionar Projects-> To do
         #### - Añadir capturas, imagenes y/o videos que ayuden al proceso de desarrollo.
         ##
   - type: input
