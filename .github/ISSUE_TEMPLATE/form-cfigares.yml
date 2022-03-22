@@ -65,7 +65,7 @@ body:
   - type: textarea
     id: multimedia
     attributes:
-      label: En caso de disponer de capturas o videos, añadirlos aquí🎞📷
+      label: En caso de disponer de capturas o videos, añadirlos aquí 📹
       description:
       placeholder: Adjunta aquí tu archivo multimedia...
   
