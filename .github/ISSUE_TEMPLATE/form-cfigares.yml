@@ -28,7 +28,7 @@ body:
   - type: dropdown
     id: channel
     attributes:
-      label: ¿En qué canales ocurre este problema?🌐
+      label: ¿En qué canales ocurre este problema? 🏷
       options:
         - Voz
         - Webchat
