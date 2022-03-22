@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## **Acordate de agregar los labels dependiendo del canal, agregar a proyecto, añadir capturas, imagenes y/o videos que ayuden al proceso de desarrollo.**
+        ### **Acordate de agregar los labels dependiendo del canal, agregar a proyecto, añadir capturas, imagenes y/o videos que ayuden al proceso de desarrollo.**
   - type: input
     id: contact
     attributes:
