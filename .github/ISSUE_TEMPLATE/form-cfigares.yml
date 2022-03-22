@@ -66,7 +66,7 @@ body:
     id: multimedia
     attributes:
       label: En caso de disponer de capturas o videos, añadirlos aquí:
-      description:  
+      description:
       placeholder: Adjunta aquí tu archivo multimedia...
       
         
