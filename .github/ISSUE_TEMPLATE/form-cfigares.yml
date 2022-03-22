@@ -13,7 +13,7 @@ body:
     id: contact
     attributes:
       label: Instancia 👨‍💻
-      description: En que instancia ocurrió el problema?
+      description: En qué instancia ocurrió el problema?
       placeholder: INSTANCIA.ucontactcloud.com
     validations:
       required: true
@@ -21,14 +21,14 @@ body:
     id: version
     attributes:
       label: Versión 🔢
-      description: Cual es la versión de uContact en la que ocurre el problema? (Poner número de versión)
+      description: Cuál es la versión de uContact en la que ocurre el problema? (Poner número de versión)
       placeholder: 6.4xx
     validations:
       required: true
   - type: dropdown
     id: channel
     attributes:
-      label: En que canales ocurre este problema? 🏷
+      label: En qué canales ocurre este problema? 🏷
       options:
         - Voz
         - Webchat
@@ -38,7 +38,7 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: Cual fue el problema? 💬
+      label: Cuál fue el problema? 💬
       description: Escribir el problema lo más detalladamente posible.
       placeholder: Ocurrió un incidente al...
     validations:
