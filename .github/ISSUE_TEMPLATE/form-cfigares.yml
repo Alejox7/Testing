@@ -12,8 +12,8 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Instancia
-      description: En que instancia ocurrió el problema? 👨‍💻
+      label: Instancia 👨‍💻
+      description: En que instancia ocurrió el problema?
       placeholder: INSTANCIA.ucontactcloud.com
     validations:
       required: true
