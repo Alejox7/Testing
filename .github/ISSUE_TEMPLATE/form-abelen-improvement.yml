@@ -16,7 +16,7 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Instancia
+      label: Descripción
       description: Describir la mejora a proponer
       placeholder: Quiero mas bananas porque...
     validations:
