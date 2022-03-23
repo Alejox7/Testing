@@ -18,6 +18,6 @@ body:
     attributes:
       label: Descripción 💬
       description: Describir la mejora a proponer
-      placeholder: Quiero mas bananas porque...
+      placeholder: Se propone modificar...
     validations:
       required: true
