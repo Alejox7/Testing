@@ -29,6 +29,7 @@ body:
     id: channel
     attributes:
       label: ¿En qué canales ocurre este problema? 🏷
+      multiple: true
       options:
         - Voz
         - Webchat
