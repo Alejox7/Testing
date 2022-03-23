@@ -72,11 +72,12 @@ body:
   - type: markdown
     attributes:
       value: |
+        ##
         ### Recordar:
-        #### - Agregar los labels involucrados en la propuesta 🏷
+        #### - Agregar los labels involucrados en el problema 🏷
         #### - Seleccionar Projects-> To do 👉
         #### - Añadir capturas, imagenes y/o videos que ayuden al proceso de validación y desarrollo 📷📹🎞
-        ##
+      
   
      
       
