@@ -29,8 +29,8 @@ body:
     attributes:
       label: Indicar el tipo de servidor
       options:
-        - label: On-premise ✔
-        - label: Cloud 
+        - On-premise ✔
+        - Cloud 
   - type: input
     id: version
     attributes:
