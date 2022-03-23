@@ -18,7 +18,7 @@ body:
     validations:
       required: false
   - type: checkboxes
-    id: terms
+    id: terms1
     attributes:
       label: Indicar el tipo de servidor ✔
       options:
@@ -27,7 +27,7 @@ body:
   - type: dropdown
     id: jj
     attributes:
-      label: Indicar el tipo de servidor ✔
+      label: Indicar el tipo de servidor
       options:
         - label: On-premise ✔
         - label: Cloud 
