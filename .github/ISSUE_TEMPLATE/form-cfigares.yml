@@ -29,6 +29,7 @@ body:
     id: channel
     attributes:
       label: ¿En qué canales ocurre este problema? 🏷
+      description: En caso de ser SMS indicar el proveedor
       multiple: true
       options:
         - Voz
