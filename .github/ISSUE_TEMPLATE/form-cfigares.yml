@@ -47,7 +47,7 @@ body:
     id: logs
     attributes:
       label: Logs 🔡
-      description: Copie y pegue el log. Este se formateará automaticamente como código.
+      description: Copie y pegue el log. Este se formateará automáticamente como código.
       render: shell
   - type: textarea
     id: pasos
