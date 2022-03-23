@@ -16,7 +16,7 @@ body:
       description: ¿En qué instancia ocurrió el problema?
       placeholder: INSTANCIA.ucontactcloud.com
     validations:
-      required: true
+      required: false
   - type: input
     id: version
     attributes:
@@ -24,7 +24,7 @@ body:
       description: ¿Cuál es la versión de uContact en la que ocurre el problema? (Poner número de versión)
       placeholder: 6.4xx
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: channel
     attributes:
