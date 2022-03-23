@@ -31,8 +31,6 @@ body:
       options:
         - label: On-premise ✔
         - label: Cloud 
-        
- 
   - type: input
     id: version
     attributes:
