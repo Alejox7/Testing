@@ -21,15 +21,3 @@ body:
       placeholder: Quiero mas bananas porque...
     validations:
       required: true
-  - type: dropdown
-    id: channel
-    attributes:
-      label: ¿En qué canales ocurre este problema? 
-      multiple: true
-      description: Agregar los labels correspondientes a los canales
-      options:
-        - Telefonía
-        - Webchat
-        - SMS/Whatsapp
-        - Email
-        - Facebook/Messenger
