@@ -13,7 +13,7 @@ body:
         #### - Seleccionar Projects-> To do 👉
         #### - Añadir capturas, imagenes y/o videos que ayuden al proceso de desarrollo 📷📹🎞
         ##
-  - type: input
+  - type: textarea
     id: contact
     attributes:
       label: Descripción 💬
