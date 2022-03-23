@@ -21,14 +21,6 @@ body:
       placeholder: Quiero mas bananas porque...
     validations:
       required: true
-  - type: input
-    id: version
-    attributes:
-      label: Versión 🔢
-      description: 
-      placeholder: 6.4xx
-    validations:
-      required: true
   - type: dropdown
     id: channel
     attributes:
