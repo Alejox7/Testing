@@ -17,6 +17,22 @@ body:
       placeholder: INSTANCIA.ucontactcloud.com
     validations:
       required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Indicar el tipo de servidor ✔
+      options:
+        - label: On-premise ✔
+        - label: Cloud 
+  - type: dropdown
+    id: terms
+    attributes:
+      label: Indicar el tipo de servidor ✔
+      options:
+        - label: On-premise ✔
+        - label: Cloud 
+        
+ 
   - type: input
     id: version
     attributes:
