@@ -21,10 +21,10 @@ body:
   - type: checkboxes
     id: terms1
     attributes:
-      label: Indicar el tipo de servidor 💻
+      label: Indicar el tipo de servidor 🗄
       options:
-        - label: On-premise 
-        - label: Cloud 
+        - label: On-premise 💻
+        - label: Cloud ☁
   - type: input
     id: version
     attributes:
