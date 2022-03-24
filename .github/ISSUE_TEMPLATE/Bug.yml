@@ -51,7 +51,7 @@ body:
   - type: input
     id: contact1
     attributes:
-      label: Plazos solicitados por el cliente
+      label: Plazos solicitados por el cliente 📅
       description: Mencionar plazos o fechas para estimar y priorizar
       placeholder: El cliente pide que se pase un estimativo antes de...
   - type: textarea
@@ -69,7 +69,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: ¿Fue reproducido en otras instancias? ▶
+      label: ¿Fue validado en otras instancias? ▶
       description: En caso de no ser reproducido agregar el label Triage 🏷
       options:
         - label: Si ✔
