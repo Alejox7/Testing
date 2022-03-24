@@ -1,6 +1,6 @@
-name: Bug Issue
-description: File a bug report cfigares
-title: "[Bug cfigares]: "
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
 labels: ["bug"]
 assignees:
   - 
