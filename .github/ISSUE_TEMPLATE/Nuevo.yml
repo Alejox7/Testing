@@ -1,0 +1,23 @@
+name: Feature Request
+description: Request a new feature
+title: "[Improvement]: "
+labels: ["improvement"]
+assignees:
+  - 
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Recordar:
+        #### - Agregar los labels involucrados en la propuesta 🏷
+        #### - Seleccionar Projects-> To do 👉
+        #### - Añadir capturas, imagenes y/o videos que ayuden al proceso de validación y desarrollo 📷📹🎞
+        ##
+  - type: textarea
+    id: contact
+    attributes:
+      label: Descripción 💬
+      description: Describir la mejora a proponer
+      placeholder: Se propone modificar...
+    validations:
+      required: true
