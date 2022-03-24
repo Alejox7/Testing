@@ -55,6 +55,12 @@ body:
       placeholder: Ocurrió un incidente al...
     validations:
       required: true
+  - type: input
+    id: contact1
+    attributes:
+      label: Plazos solicitados por el cliente
+      description: Mencionar plazos o fechas para estimar y priorizar
+      placeholder: El cliente pide que se pase un estimativo antes de...
   - type: textarea
     id: logs
     attributes:
