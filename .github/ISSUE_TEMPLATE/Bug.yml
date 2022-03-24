@@ -5,10 +5,6 @@ labels: ["bug"]
 assignees:
   - 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Creación de issues para uContact
   - type: input
     id: contact
     attributes:
