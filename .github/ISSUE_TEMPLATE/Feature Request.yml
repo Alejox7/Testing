@@ -5,6 +5,10 @@ labels: ["new feature"]
 assignees:
   - 
 body:
+  - type: input
+    id: contact2
+    attributes:
+      label: ¿Qué cliente lo solicita?
   - type: textarea
     id: contact
     attributes:
