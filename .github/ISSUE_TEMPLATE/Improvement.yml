@@ -5,14 +5,14 @@ labels: ["new feature"]
 assignees:
   - 
 body:
-  - type: markdown
+  - type: textarea
+    id: contact
     attributes:
-      value: |
-        ### Recordar:
-        #### - Agregar los labels involucrados en la propuesta 🏷
-        #### - Seleccionar Projects-> To do 👉
-        #### - Añadir capturas, imagenes y/o videos que ayuden al proceso de validación y desarrollo 📷📹🎞
-        ##
+      label: Descripción 💬
+      description: Describir la implementación a proponer
+      placeholder: Se propone...
+    validations:
+      required: true
   - type: checkboxes
     id: terms1
     attributes:
@@ -26,11 +26,12 @@ body:
       label: Plazos solicitados por el cliente
       description: Mencionar plazos o fechas para estimar y priorizar
       placeholder: El cliente pide que se pase un estimativo antes de...
-  - type: textarea
-    id: contact
+  - type: markdown
     attributes:
-      label: Descripción 💬
-      description: Describir la implementación a proponer
-      placeholder: Se propone...
-    validations:
-      required: true
+      value: |
+        ### Recordar:
+        #### - Agregar los labels involucrados en la propuesta 🏷
+        #### - Seleccionar Projects-> To do 👉
+        #### - Añadir capturas, imagenes y/o videos que ayuden al proceso de validación y desarrollo 📷📹🎞
+        ##
+      
