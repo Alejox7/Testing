@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Aca se reportan los issues los de testing
+  - name: Guía para creación de issues
     url: https://play.typeracer.com?universe=lang_es&rt=2f9o34mwgg
-    about: Es de carrera esta página.
+    about: Breve manual de ciclo de vida de un issue
