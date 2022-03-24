@@ -23,7 +23,7 @@ body:
     attributes:
       label: Indicar el tipo de servidor 🗄
       options:
-        - label: On-premise 💻
+        - label: On-premise 🖥️
         - label: Cloud ☁
   - type: input
     id: version
