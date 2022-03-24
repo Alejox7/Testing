@@ -18,15 +18,8 @@ body:
     attributes:
       label: Indicar el tipo de servidor ✔
       options:
-        - label: On-premise ✔
+        - label: On-premise 
         - label: Cloud 
-  - type: dropdown
-    id: jj
-    attributes:
-      label: Indicar el tipo de servidor
-      options:
-        - On-premise ✔
-        - Cloud 
   - type: input
     id: version
     attributes:
