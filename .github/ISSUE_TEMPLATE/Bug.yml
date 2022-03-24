@@ -6,6 +6,11 @@ assignees:
   - 
 body:
   - type: input
+    id: contact2
+    attributes:
+      label: ¿Qué cliente lo solicita?
+      placeholder: Lo solicita el cliente...
+  - type: input
     id: contact
     attributes:
       label: Instancia 👨‍💻
