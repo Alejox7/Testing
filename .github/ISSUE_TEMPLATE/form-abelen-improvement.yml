@@ -13,6 +13,13 @@ body:
         #### - Seleccionar Projects-> To do 👉
         #### - Añadir capturas, imagenes y/o videos que ayuden al proceso de validación y desarrollo 📷📹🎞
         ##
+  - type: checkboxes
+    id: terms1
+    attributes:
+      label: ¿Requiere cotización? 💲
+      description: En caso positivo, agregar el label correspondiente
+      options:
+        - label: Sí
   - type: textarea
     id: contact
     attributes:
