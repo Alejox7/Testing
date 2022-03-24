@@ -1,5 +1,5 @@
-name: Improvement
-description: Improvement
+name: Improvement Request
+description: Proponer una mejora a implementar
 title: "[Improvement]: "
 labels: ["improvement"]
 assignees:
