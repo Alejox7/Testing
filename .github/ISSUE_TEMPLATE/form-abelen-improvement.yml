@@ -1,7 +1,7 @@
 name: Feature Request
 description: Request a new feature
-title: "[Improvement]: "
-labels: ["improvement"]
+title: "[Feature Request]: "
+labels: ["Feature Request"]
 assignees:
   - 
 body:
@@ -24,7 +24,7 @@ body:
     id: contact
     attributes:
       label: Descripción 💬
-      description: Describir la mejora a proponer
-      placeholder: Se propone modificar...
+      description: Describir la implementación a proponer
+      placeholder: Se propone...
     validations:
       required: true
