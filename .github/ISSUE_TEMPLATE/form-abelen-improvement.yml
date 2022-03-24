@@ -17,7 +17,7 @@ body:
     id: terms1
     attributes:
       label: ¿Requiere cotización? 💲
-      description: En caso positivo, agregar el label correspondiente
+      description: En caso positivo, agregar también el label correspondiente 🏷
       options:
         - label: Sí
   - type: textarea
