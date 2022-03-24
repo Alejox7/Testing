@@ -21,6 +21,11 @@ body:
       options:
         - label: Sí
   - type: textarea
+    id: contact1
+    attributes:
+      label: Plazos solicitados por el cliente
+      placeholder: El cliente pide que se pase un estimativo antes de...
+  - type: textarea
     id: contact
     attributes:
       label: Descripción 💬
