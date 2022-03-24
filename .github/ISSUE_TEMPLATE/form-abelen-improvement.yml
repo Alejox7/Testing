@@ -20,7 +20,7 @@ body:
       description: En caso positivo, agregar también el label correspondiente 🏷
       options:
         - label: Sí
-  - type: textarea
+  - type: input
     id: contact1
     attributes:
       label: Plazos solicitados por el cliente
