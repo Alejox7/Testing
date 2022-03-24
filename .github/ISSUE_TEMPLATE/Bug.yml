@@ -78,15 +78,15 @@ body:
       label: En caso de disponer de capturas o videos, añadirlos aquí 📹
       description:
       placeholder: Adjunta aquí tu archivo multimedia... 
-  - type: markdown
-    attributes:
-      value: |
   - type: input
     id: contact1
     attributes:
       label: Plazos solicitados por el cliente 📅
       description: Mencionar plazos o fechas para estimar y priorizar
       placeholder: El cliente pide que se pase un estimativo antes de...
+  - type: markdown
+    attributes:
+      value: |
         ##
         ### Recordar:
         #### - Agregar los labels involucrados en el problema 🏷
