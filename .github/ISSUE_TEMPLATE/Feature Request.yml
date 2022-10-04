@@ -22,8 +22,8 @@ body:
     attributes:
       label: ¿Requiere cotización? 💲
       options:
-        - label: Sissssssssssss
-        - label: Nossssssss
+        - label: Si
+        - label: No
   - type: input
     id: contact1
     attributes:
