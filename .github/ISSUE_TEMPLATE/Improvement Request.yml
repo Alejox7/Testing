@@ -17,15 +17,14 @@ body:
       placeholder: Se propone modificar...
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: knowledge
     attributes:
       label: ¿Es una pregunta frecuente o se requiere en la Knowledge Base? 📘
       description: En caso afirmativo también agregar el label 🏷 _Knowledge_
-      multiple: true
       options:
-        - Sí
-        - No
+        - label: Si ✔️
+        - label: No ❌
   - type: markdown
     attributes:
       value: |
