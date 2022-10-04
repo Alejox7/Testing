@@ -1,0 +1,51 @@
+name: Feature Request
+description: Solicitud de una nueva implementación
+title: "Formato de título: Funcionalidad-Resumen de la propuesta"
+labels: ["New feature, Pending Approval"]
+assignees:
+  - 
+body:
+  - type: input
+    id: contact2
+    attributes:
+      label: ¿Qué cliente lo solicita? 👁‍🗨
+      placeholder: Lo solicita el cliente...
+  - type: textarea
+    id: contact
+    attributes:
+      label: Descripción de la implementación a proponer💬
+      placeholder: Se propone...
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms1
+    attributes:
+      label: ¿Requiere cotización? 💲
+      description: En caso positivo, agregar también el label correspondiente 🏷
+      options:
+        - label: Sí
+        - label: No 
+  - type: input
+    id: contact1
+    attributes:
+      label: Plazos
+      description: Mencionar plazos o fechas para estimar y priorizar
+      placeholder: El cliente pide...
+  - type: dropdown
+    id: knowledge
+    attributes:
+      label: ¿Es una pregunta frecuente o se requiere en la Knowledge Base? 📘
+      description: En caso afirmativo también agregar el label 🏷 _Knowledge_
+      multiple: true
+      options:
+        - Sí
+        - No
+  - type: markdown
+    attributes:
+      value: |
+        ##
+        ### Recordar:
+        #### - No asignar el issue a un desarrollador🚫
+        #### - Añadir capturas, imagenes y/o videos que ayuden al proceso de validación y desarrollo 📷📹🎞
+        ##
+      

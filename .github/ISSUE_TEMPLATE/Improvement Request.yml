@@ -1,0 +1,36 @@
+name: Improvement Request
+description: Proponer una mejora a implementar
+title: "Formato de título: Funcionalidad-Resumen de mejora a proponer"
+labels: ["Improvement ✨⤴️, Pending Approval"]
+assignees:
+  - 
+body:
+  - type: input
+    id: contact2
+    attributes:
+      label: ¿Qué cliente lo solicita? 👁‍🗨
+      placeholder: Lo solicita el cliente...
+  - type: textarea
+    id: contact
+    attributes:
+      label: Descripción de la mejora a proponer💬
+      placeholder: Se propone modificar...
+    validations:
+      required: true
+  - type: dropdown
+    id: knowledge
+    attributes:
+      label: ¿Es una pregunta frecuente o se requiere en la Knowledge Base? 📘
+      description: En caso afirmativo también agregar el label 🏷 _Knowledge_
+      multiple: true
+      options:
+        - Sí
+        - No
+  - type: markdown
+    attributes:
+      value: |
+        ##
+        ### Recordar:
+        #### - No asignar el issue a un desarrollador🚫
+        #### - Añadir capturas, imágenes y/o videos que ayuden al proceso de validación y desarrollo 📷📹🎞
+        ##
