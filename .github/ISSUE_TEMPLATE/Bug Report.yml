@@ -67,8 +67,8 @@ body:
     attributes:
       label: ¿Fue validado en otras instancias? ▶
       options:
-        - label: Si ✔
-        - label: No X
+        - label: Si ✔️
+        - label: No ❌
   - type: textarea
     id: multimedia
     attributes:
