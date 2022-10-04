@@ -29,15 +29,13 @@ body:
       label: Plazos
       description: Mencionar plazos o fechas para estimar y priorizar
       placeholder: El cliente pide...
-  - type: dropdown
+  - type: checkboxes
     id: knowledge
     attributes:
       label: ¿Es una pregunta frecuente o se requiere en la Knowledge Base? 📘
       description: En caso afirmativo también agregar el label 🏷 _Knowledge_
-      multiple: true
       options:
-        - Sí
-        - No
+        - label: Si
   - type: markdown
     attributes:
       value: |
