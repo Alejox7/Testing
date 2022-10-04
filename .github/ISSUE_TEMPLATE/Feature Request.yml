@@ -20,10 +20,10 @@ body:
   - type: checkboxes
     id: terms1
     attributes:
-      label: Indicar el tipo de servidor 🗄
+      label: ¿Requiere cotización? 💲
       options:
-        - label: On-premise 🖥️
-        - label: Cloud ☁
+        - label: Si
+        - label: No 
   - type: input
     id: contact1
     attributes:
