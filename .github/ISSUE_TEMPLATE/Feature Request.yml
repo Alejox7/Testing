@@ -23,7 +23,7 @@ body:
       label: ¿Requiere cotización? 💲
       description: En caso positivo, agregar también el label correspondiente 🏷
       options:
-        - label: Sí
+        - label: Si
         - label: No 
   - type: input
     id: contact1
