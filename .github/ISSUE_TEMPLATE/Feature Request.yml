@@ -22,7 +22,8 @@ body:
     attributes:
       label: ¿Requiere cotización? 💲
       options:
-        - label: Si
+        - label: Si ✔
+        - label: No X
   - type: input
     id: contact1
     attributes:
@@ -35,7 +36,8 @@ body:
       label: ¿Es una pregunta frecuente o se requiere en la Knowledge Base? 📘
       description: En caso afirmativo también agregar el label 🏷 _Knowledge_
       options:
-        - label: Si
+        - label: Si ✔
+        - label: No X
   - type: markdown
     attributes:
       value: |
