@@ -10,13 +10,6 @@ body:
     attributes:
       label: ¿Qué cliente lo solicita? 👁‍🗨
       placeholder: Lo solicita el cliente...
-  - type: textarea
-    id: contact
-    attributes:
-      label: Descripción de la implementación a proponer💬
-      placeholder: Se propone...
-    validations:
-      required: true
   - type: checkboxes
     id: terms1
     attributes:
