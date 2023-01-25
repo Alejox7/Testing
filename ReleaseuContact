@@ -35,6 +35,9 @@ echo $RELEASE
 
 echo "Esto es todo amigos"
 exit
+
+#Que en caso que la respuesta del curl del release tenga "Validation failed" que pregunte de vuelta nombre de build
+
 #despues de 10 min verificar que este bien el build y que despues pregunte para chequear
 
 #descargar la build y chequear que descargue bien
