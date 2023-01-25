@@ -1,0 +1,44 @@
+#!/bin/bash
+
+TOKEN="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" 
+REPO="Alejox7/Testing"                    
+GITHUB="https://api.github.com"
+
+while [[ -z "$ELBRANCHELEGIDO" || $ELBRANCHELEGIDO =~ [[:space:]] ]]
+do
+echo "Tirame el branch que queres, si le pifias o no pones nada te tira todos los branch que hay"
+read BRANCH
+
+ELBRANCHELEGIDO=`curl -s $GITHUB/repos/$REPO/branches?per_page=100 -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" | jq ".[] | .name" | grep -e $BRANCH`
+
+###echo $ELBRANCHELEGIDO
+
+###si lo anterior te tira nada o mas deuno, que muestre todos los branchs
+if [[ -z "$ELBRANCHELEGIDO" || $ELBRANCHELEGIDO =~ [[:space:]] ]]; then
+    curl -s $GITHUB/repos/$REPO/branches?per_page=100 -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" | jq ".[] | .name"
+fi
+done
+
+echo "Elegiste el branch " $ELBRANCHELEGIDO
+echo "Tirame el nombre del build"
+read NAMEBUILD
+
+TAGNAME="${NAMEBUILD//[[:space:]]/}" ### le saca los espacios
+echo $TAGNAME
+echo "Decime el body del prerelease"
+read BODY
+
+
+RELEASE=`curl -sL -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" $GITHUB/repos/$REPO/releases  -d "{\"tag_name\":\"$TAGNAME\",\"target_commitish\":$ELBRANCHELEGIDO,\"name\":\"$NAMEBUILD\",\"body\":\"$BODY\",\"draft\":false,\"prerelease\":true,\"generate_release_notes\":false}"`
+
+echo $RELEASE
+
+echo "Esto es todo amigos"
+exit
+#despues de 10 min verificar que este bien el build y que despues pregunte para chequear
+
+#descargar la build y chequear que descargue bien
+
+#que le tire los inputs para que abra el updateucontact y haga el update offline con el archivo descargado
+
+#Preguntar si despues habria que eliminar el build creado automaticamente o preguntar si borrar o no borrar
